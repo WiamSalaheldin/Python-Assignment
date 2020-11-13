@@ -16,7 +16,7 @@ while (course_number<=num_of_courses):
     for mark in course_marks:
         total = total + mark
 # printing the total marks
-print(f"Your total marks for {num_of_courses} courses is {total}")        
+        print(f"Your total marks for {num_of_courses} courses is {total}")        
 # finding the average by dividing the total by the length of the list using round built in function
 #  to return the nearest integer 
 average = round(total/num_of_courses,2)
@@ -31,5 +31,5 @@ elif average >=70 and average<=79:
     print ("Your grade is C")
 elif average >=60 and average<=69:
     print ("Your grade is D")
-elif average >=50 and average<=59:
+elif average<=59:
     print ("Your grade is F")
